@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/xiaou_bot?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 4236XUYIIXFF
+
+
+
+
+mybatis:
+  type-aliases-package: simbot.xiaoU.entity
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+
+logging:
+  level:
+    love:
+      forte:
+        simbot: debug
+
+simbot:
+  core:
+    # 扫描 simbot-bots目录下的所有 .bot 文件。
+    bot-resource-type: RESOURCE_FIRST
