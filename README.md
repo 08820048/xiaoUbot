@@ -1,6 +1,6 @@
-# Simbot springboot starter demo - Mirai
+# 骁幽Bot
 
-这是[simple-robot](https://github.com/ForteScarlet/simpler-robot) 框架使用[mirai组件](https://github.com/ForteScarlet/simpler-robot/tree/dev/component/component-mirai) 对接[Mirai](https://github.com/mamoe/mirai) 并整合为 Spring Boot 的Demo项目。
+这是[simple-robot](https://github.com/ForteScarlet/simpler-robot) 框架使用[mirai组件](https://github.com/ForteScarlet/simpler-robot/tree/dev/component/component-mirai) 对接[Mirai](https://github.com/mamoe/mirai) 并整合为 Spring Boot 的QQ群机发题器人开源项目。
 
 ## 需要做的
 ### fork/clone
@@ -28,6 +28,6 @@ simbot:
 
 以及，记得关闭账号中与“设备锁”、“安全保护”等相关内容。
 
-### 协助
-如果你有一个好的示例点子，你可以通过[github pr](https://github.com/simple-robot/simbot-mirai-spring-boot-demo/pulls) 来协助此demo项目的更新。
+### 测试
+ > 测试QQ群：917125728
 
