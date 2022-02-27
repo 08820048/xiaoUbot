@@ -29,9 +29,8 @@
 // * @description:
 // * @blog:tisox.waer.ltd
 // */
-//@Component
-//@Configuration
-//@EnableScheduling
+//
+//@Deprecated
 //public class Listener {
 //    @Autowired
 //    private BotManager manager;
@@ -60,14 +59,14 @@
 //        System.out.println("题目编号："+q);
 //        List<String> problems = problemsDaoService.selectProblems(q);
 //        long accountCodeNumber = msgGet.getAccountInfo().getAccountCodeNumber();
-//        sender.sendGroupMsg("657212221", "@"+accountCodeNumber+"("+msgGet.getAccountInfo().getAccountNickname()+")"+
+//        sender.sendGroupMsg("QQ_GROUP_MAIN", "@"+accountCodeNumber+"("+msgGet.getAccountInfo().getAccountNickname()+")"+
 //                "题目正在来的路上....稍安勿躁!!");
 //        if(!problems.isEmpty()){
 //            for (String problem : problems) {
-//              sender.sendGroupMsg("657212221",problem);
+//              sender.sendGroupMsg("QQ_GROUP_MAIN",problem);
 //            }
 //        }else{
-//            sender.sendGroupMsg("657212221","哦豁!)[指令q"+q+"]"+"【题库未收录,请检查发题指令是否正确!】");
+//            sender.sendGroupMsg(QQ_GROUP_MAIN,"哦豁!)[指令q"+q+"]"+"【题库未收录,请检查发题指令是否正确!】");
 //        }
 //    }
 //
@@ -75,10 +74,10 @@
 //        Bot defaultBot = manager.getDefaultBot();
 //        BotSender sender = defaultBot.getSender();
 //        System.out.println("所有机器人："+manager.getBots());
-//        sender.SENDER.sendGroupMsg( "657212221", "定时消息测试" );
+//        sender.SENDER.sendGroupMsg( QQ_GROUP_MAIN, "定时消息测试" );
 //        //sender.SENDER.sendPrivateMsg("2217021563", "你好！我是" + defaultBot.getBotInfo().getBotName());
-//        //sender.SENDER.sendGroupMsg("657212221", "执行定时任务:发布群公告!!");
-//        sender.SENDER.sendGroupNotice("657212221","定时任务：发布公告",
+//        //sender.SENDER.sendGroupMsg(QQ_GROUP_MAIN, "执行定时任务:发布群公告!!");
+//        sender.SENDER.sendGroupNotice(QQ_GROUP_MAIN,"定时任务：发布公告",
 //                "定时任务公告测试定时任务公告测试定时任务公告测试定时任务公告测试定时任务公告测试定时任务公告测试定时任务公告测试定时任务公告测试",true,true,false,true);
 //
 //    }

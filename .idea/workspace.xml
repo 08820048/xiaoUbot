@@ -7,7 +7,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f4c95c9-5a75-49a9-a4c7-e1e25401c55c" name="Changes" comment="" />
+    <list default="true" id="6f4c95c9-5a75-49a9-a4c7-e1e25401c55c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/account.secrets" beforeDir="false" afterPath="$PROJECT_DIR$/cache/account.secrets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/servers.json" beforeDir="false" afterPath="$PROJECT_DIR$/cache/servers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/session.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cache/session.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simbot/xiaoU/listener/CommonListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simbot/xiaoU/listener/CommonListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simbot/xiaoU/listener/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simbot/xiaoU/listener/Listener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simbot/xiaoU/listener/TaskListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simbot/xiaoU/listener/TaskListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/simbot/xiaoU/listener/CommonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/simbot/xiaoU/listener/CommonListener.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -31,6 +42,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="4" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -70,7 +84,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mapper" />
+    <property name="last_opened_file_path" value="E:/nowcoder/woekspace/community" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -80,6 +95,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\robot\xiaoUbot\src\main\resources\mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\robot\xiaoUbot\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="simbot.xiaoU" />
@@ -151,7 +169,10 @@
       <workItem from="1641209481704" duration="636000" />
       <workItem from="1645783443953" duration="5175000" />
       <workItem from="1645839892927" duration="56000" />
-      <workItem from="1645887258046" duration="1193000" />
+      <workItem from="1645887258046" duration="2100000" />
+      <workItem from="1645934057174" duration="58000" />
+      <workItem from="1645940185017" duration="6989000" />
+      <workItem from="1645966759781" duration="801000" />
     </task>
     <servers />
   </component>

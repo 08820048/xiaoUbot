@@ -8,6 +8,7 @@
 //import org.springframework.scheduling.annotation.EnableScheduling;
 //import org.springframework.scheduling.annotation.Scheduled;
 //import org.springframework.stereotype.Component;
+//import simbot.xiaoU.utils.BotConstant;
 //
 //import java.text.SimpleDateFormat;
 //import java.util.Date;
@@ -21,7 +22,8 @@
 //@Component
 //@Configuration
 //@EnableScheduling
-//public class TaskListener {
+//@Deprecated
+//public class TaskListener implements BotConstant {
 //    @Autowired
 //    private BotManager manager;
 //    private static final SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
@@ -30,14 +32,14 @@
 //     Bot defaultBot = manager.getDefaultBot();
 //     BotSender sender = defaultBot.getSender();
 //     String format = dateFormat.format(new Date());
-//     if("07:00:00".equals(format)){
-//         sender.SENDER.sendGroupMsg("657212221", "天亮了，美妙的一天又开端了，起床吧，呼吸清爽，拥抱阳光；浅笑吧，高兴心境，高兴一天。早上好，愿各位有个好意情！");
+//     if("07:50:00".equals(format)){
+//         sender.SENDER.sendGroupMsg(QQ_GROUP_MAIN, "天亮了，美妙的一天又开端了，起床吧，呼吸清爽，拥抱阳光；浅笑吧，高兴心境，高兴一天。早上好，愿各位有个好意情！");
 //     }
 //     if("12:00:00".equals(format)){
-//         sender.SENDER.sendGroupMsg("657212221", "中午好！睡个午觉棒棒哒！");
+//         sender.SENDER.sendGroupMsg(QQ_GROUP_MAIN, "中午好！睡个午觉棒棒哒！");
 //     }
 //     if("10:30:00".equals(format)){
-//         sender.SENDER.sendGroupMsg("657212221", "如果明天再也不能见面,那么提前祝各位早安！午安！晚安！");
+//         sender.SENDER.sendGroupMsg(QQ_GROUP_MAIN, "如果明天再也不能见面,那么提前祝各位早安！午安！晚安！");
 //     }
 //
 //    }
