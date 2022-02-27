@@ -11,13 +11,14 @@
 fork或者clone此项目到你的本地，并使用IDE工具打开并构建它。
 
 ### 修改配置文件
-打开文件 [application.yml](src/main/resources/application.yml) 并修改其中的 `simbot.core.bots` 项为你测试用的QQ账号，例如：
+1. 打开文件 [xiaou.bot](src/main/resources/simbot-bots) 并修改其中的 `xiaou.bot` 项为你测试用的QQ账号，例如：
 ```yaml
 simbot: 
   core:
     bots: 123456789:password
 ```
-
+2. 打开文件 [BotConstant.java](src/main/Java/simbot.xiaoU.utils) 并修改其中的 `BotConstant.java`,配置需要使用的QQ群号。 
+3. 数据库配置在文件[application.yml],另外，项目支持开发/生产环境的切换。
 ### 保证安静
 将你的bot放在一些测试用的群而不是一些大型群。
 
