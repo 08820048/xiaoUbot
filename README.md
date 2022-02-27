@@ -4,7 +4,7 @@
 ## 技术说明
   - 后端:SpringBoot
   - 数据库:MySQL+MyBatis
-  - 其他
+  - 框架:simple-robot
 ## 需要做的
 ### fork/clone
 fork或者clone此项目到你的本地，并使用IDE工具打开并构建它。
@@ -32,5 +32,5 @@ simbot:
 ### 测试
  > 测试QQ群：917125728。
 
-### 说明
-- 这是[simple-robot](https://github.com/ForteScarlet/simpler-robot) 框架使用[mirai组件](https://github.com/ForteScarlet/simpler-robot/tree/dev/component/component-mirai) 对接[Mirai](https://github.com/mamoe/mirai) 并整合为 Spring Boot 的**QQ群机发题器人**开源项目
+### 致谢
+- [simple-robot](https://github.com/ForteScarlet/simpler-robot) 
