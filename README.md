@@ -5,7 +5,8 @@
 ## 技术说明
   - 后端:SpringBoot
   - 数据库:MySQL+MyBatis
-  - 框架:simple-robot
+  - 框架:Simple-robot
+  - 管理:Maven
 ## 需要做的
 ### fork/clone
 fork或者clone此项目到你的本地，并使用IDE工具打开并构建它。
@@ -34,6 +35,8 @@ simbot:
 ### 测试
  > 测试QQ群：917125728。
 
+### 关于部署
+> 本项目使用maven进行管理，部署的话，直接打jar包丢进服务器即可。
 ### 致谢
 - [simple-robot](https://github.com/ForteScarlet/simpler-robot) 
 
