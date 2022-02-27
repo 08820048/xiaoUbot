@@ -1,6 +1,6 @@
 # 骁幽Bot
-> 需求源于自己的一个推理爱好者Q群,没有时间发推理题目的情况下，在某宝买了很多机器人，后来发现娱乐功能一堆，却没有发题这一核心(不能自定义)。于是花了两天时间自己现学现卖随便写了一个，核心功能基本实现，题库需要自己录入数据库(目前题库题量很少)。
-> 不管怎么说，起码暂时解放了双手，关于其他功能的开发与题库数据的录入工作那就随缘更新了!!!
+> 需求源于自己的一个推理爱好者Q群,没有时间发推理题目的情况下，在某宝买了很多机器人，发现娱乐功能一堆，却没有发题这一核心(不能自定义)。于是花了两天时间自己现学现卖随便写了一个，核心功能基本实现，题库需要自己录入数据库(目前题库题量很少)。
+> 不管怎么说，起码暂时解放了双手，关于其他功能的开发与题库数据的录入工作有时间就继续！
 ## 技术说明
   - 后端:SpringBoot
   - 数据库:MySQL+MyBatis
@@ -34,3 +34,14 @@ simbot:
 
 ### 致谢
 - [simple-robot](https://github.com/ForteScarlet/simpler-robot) 
+
+<p align="center">
+    <a href="#投稿"><img src="https://img.shields.io/badge/在校-实训-blue.svg" alt="投稿"></a>
+  <a href="#公众号"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-代码不良人-lightgrey.svg" alt="公众号"></a>
+  <a href="#公众号"><img src="https://img.shields.io/badge/语言-Java-important.svg" alt="公众号"></a>
+  <a href="#投稿"><img src="https://img.shields.io/badge/support-持续更新-green.svg" alt="投稿"></a>
+  <a href="#投稿"><img src="https://img.shields.io/badge/框架-SpringBoot-orange.svg" alt="投稿"></a>
+    <a href="#投稿"><img src="https://img.shields.io/badge/MyBatis-orange.svg" alt="投稿"></a>
+  <a href="#投稿"><img src="https://img.shields.io/badge/QQ群-机器人-yellow.svg" alt="投稿"></a>
+  <a href="#投稿"><img src="https://img.shields.io/badge/数据库-MySql-red.svg" alt="投稿"></a>
+</p>
